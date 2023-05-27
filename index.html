@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qr-Code</title>
+    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+    <style>
+        body{
+            width: 100%;
+            background-color: hwb(214 88% 5%);
+        }
+       
+       .code-container{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 550px;
+        margin-top: 80px;
+        width: 240px;
+        border: 20px solid white;
+        border-radius: 20px;
+        background-color: white;
+        box-shadow: 5px 15px 25px 5px grey;
+       }
+       .code-img img{
+        width: 100%;
+       }
+      @media only screen and (max-width:576px){
+        body{
+            width: 50%;
+        }
+        .code-img img{
+        width: 100%;
+       }
+       .code-container{
+        width: 240px;
+        margin-left: 100px;
+       }
+      }
+    </style>
+</head>
+<body>
+    <div class="first-container">
+        <div class="container">
+            <div class="code-container">
+                <div class="code-img">
+                    <img src="images/image-qr-code.png" alt="">
+                </div>
+                <div class="code-heading">
+                    <h3>Improve your front-end skills by building projects</h3>
+                    <p>scan the QR code to visit Fronted Mentor and take your coding skills to the next level</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
